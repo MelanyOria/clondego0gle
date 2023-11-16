@@ -1,60 +1,75 @@
-<!DOCTYPE html>
-<html lang="es"> 
+<!DOCTYPE html> 
+<!--Mapa de caracteres, asi se pone un comentario, menor q y luego signo de admiracion al reves-->
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Es para agregar el nombre de la pagina, para verla es en go live y si no aparece en port 55-->
+    <title>Página de perritos lindos</title>
     <link href="estilos.css" rel="stylesheet">
-    <title> Clon de Google</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com>">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
-    <header>
-        <nav>
-            <ul class="nav-rigth-section">
-            <li><a href="https://mail.google.com/mail/?tab=rm&ogbl">Gmail</a></li>
-            <!--El link se copia asi: entras a la pagina principal de googley das click derecho en la palabra gmail que aparece en la esquina superior derecha, seleccionas la opcion de copiar  direccion de anlace- y el de imagenes igual,pero en la seccion de iamgenes-->
-            <li><a href="https://www.google.com/imghp?hl=es&tab=ri&ogbl">Imágenes</a></li>
-            <li class="menu-icon"><a href="#"></a></li>
-            <li><img src="https://lh3.googleusercontent.com/ogw/AKPQZvxBdWPddLCnKW3GV_78paHU87_5LaNo6EPgRnqe=s32-c-mo">
-                <!--Para este das click en la foto de google y despues en copiar direccion de imagen-->
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="main-logo">
-            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
-        </section>
-
-        <section class="main-input">
-            <div class="main-input-container">
-                <span class="search-icon"></span>
-                <input type="text">
-                <a class="micro-icon" href="#"></a>
-                <a class="cam-icon" href="#"></a>
-
-            </div>
-        </section>
-
-        <section class="main-buttons">
-            <div><button>Buscar con google</button></div>
-            <div><button>Voy a tener suerte</button></div>
-        </section>
-    </main>
-
-    <footer>
-        <!--Lista izquierda-->
-        <ul class="footer-left">
-            <li><a href="https://about.google/?utm_source=google-MX&utm_medium=referral&utm_campaign=hp-footer&fg=1">Sobre Google</a></li>
-            <li><a href="https://www.google.com/intl/es-419_mx/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidad</a></li>
-            <li><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Negocios</a></li>
-            <li><a href="https://google.com/search/howsearchworks/?fg=1">¿Cómo funciona la búsqueda?</a></li>
-        </ul>
-
-        <!--Lista izquierda-->
-        <ul class="footer-right">
-           <li><a href="https://policies.google.com/privacy?hl=es-419&fg=1">Privacidad</a></li>
-           <li><a href="https://policies.google.com/terms?hl=es-419&fg=1">Condiciones</a></li>
-           <li><a href="#">Preferencias</a></li>
-        </ul>
-    </footer>
+    <h1>¡Hola, mundo!</h1>
+    <h1>Página de perritos monitos</h1>
+    <h3> Imágenes de mis perritos favoritos</h3>
+    <!-- insertar imagen desde la web,copiar direccion de imagen, agregamos adento de img src y pego el link -->
+    <img class="img2" src="https://i.pinimg.com/originals/10/5a/9b/105a9b737e0eec4d153f95405dc9ec96.jpg">
+     <!--insertar imagen desde la compu, capeta de imagenes--> 
+     <!-- h1 en adelante hasta h6 es para el tamaño de las letras, entre mas pequeño el numero mas grande la letra-->
 </body>
-</html>
+<img class="img1" src="https://i.pinimg.com/736x/bd/f3/a0/bdf3a00cd481dda7a7671dcd4ee95161--hair-cuts-teddy-bears.jpg">
+  <!--Enlaces externos con la p-->
+  <p>Si quieres ver más imagenes de perritos, <a href="https://www.purina.es/encuentra-mascota/tipos-de-perros/razas-tamano/perro-shih-tzu-consejos" target="_blank">da click en este enlace.</a> </p>
+  <h3>Lista de Perritos</h3>
+  <p> 3 cosas que los shitzu <strong>aman</strong></p>
+  <!--Lista ordenada asi abajo, arriba poner en negritas con strong-->
+  <ol>
+    <li>Jugar</li>
+    <li>Dormir</li>
+    <li>Comer</li>            
+  </ol>
+
+  <!--Lista desordenada ul-->
+  <p>3 cosas que los shitzu <i>odian</i> </p>
+  <ul>
+    <li>Compartir</li>
+    <li>Bañarse</li>
+    <li>Tener hambre</li>
+  </ul>
+
+  <!--Formulario-->
+  <form>
+    <!--forms con botones de radio-->
+    <p> ¿Tu perrito es cachorro o es adulto?
+    </p>
+    <label>
+        <input id="cachorro" type="radio" value="cachorro" name="form-perritos shitzu" checked>Cachorro
+
+    </label>
+    <br>
+    <label>
+        <input id="adulto" type="radio" value="adulto" name="form-perritos shitzu">Adulto
+
+    </label>
+       
+    <!--Form con casillas de verificaion-->
+    <p> ¿Que tipo de personalidad tiene tu shitzu? </p>
+    <label>
+        <input id="enojon" type="checkbox" value="enojon" name="personalidad"> Enojon</label>
+    <br>
+    <label>  <input id="jugeton" type="checkbox" value="jugeton" name="personalidad" >Jugeton</label>
+   <br>
+<label>  <input id="perezoso" type="checkbox" value="perezoso" name="personalidad" >Perezoso 
+</label>
+
+
+  </form>
+
+</body>
+
+<footer>
+    <p><small>Esta pagina fue creada durante el bootcamp de <a href="https://tecnolochicas.mx/" target="_blank"> Tecnolochicas PRO.</a></small></p>
+</footer>
